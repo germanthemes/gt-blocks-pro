@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node scripts/start.js",
-	"build": "node scripts/build.js",
-	"export": "git archive HEAD -9 --prefix gt-blocks-pro/ --format=zip > ../../gt-blocks-pro.zip"
+    "build": "node scripts/build.js",
+    "export": "git archive HEAD -9 --prefix gt-blocks-pro/ --format=zip > ../../gt-blocks-pro.zip"
   },
   "dependencies": {
     "autoprefixer": "^7.2.4",

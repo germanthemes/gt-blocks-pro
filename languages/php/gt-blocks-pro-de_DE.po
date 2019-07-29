@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GT Blocks Pro\n"
 "Report-Msgid-Bugs-To: https://themezee.com/\n"
-"POT-Creation-Date: 2019-07-03 10:12+0200\n"
-"PO-Revision-Date: 2019-07-03 10:12+0200\n"
+"POT-Creation-Date: 2019-07-29 15:47+0200\n"
+"PO-Revision-Date: 2019-07-29 15:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: GT Blocks Pro<support@germanthemes.de>\n"
 "Language: de_DE\n"
@@ -25,11 +25,11 @@ msgstr "GT Blocks Pro"
 #: gt-blocks-pro.php:249
 #, php-format
 msgid ""
-"Please activate your license key for GT Blocks Pro in order to receive updates "
-"and support. <a href=\"%s\">Activate License</a>"
+"Please activate your license key for GT Blocks Pro in order to receive "
+"updates and support. <a href=\"%s\">Activate License</a>"
 msgstr ""
-"Bitte aktiviere deinen Lizenzschlüssel für GT Blocks Pro, um Updates und Support "
-"zu erhalten. <a href=\"%s\">Lizenz aktivieren</a>"
+"Bitte aktiviere deinen Lizenzschlüssel für GT Blocks Pro, um Updates und "
+"Support zu erhalten. <a href=\"%s\">Lizenz aktivieren</a>"
 
 #: includes/class-gt-blocks-pro-plugin-updater.php:202
 #, php-format

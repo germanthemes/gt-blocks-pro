@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GT Blocks Pro\n"
 "Report-Msgid-Bugs-To: https://themezee.com/\n"
-"POT-Creation-Date: 2019-07-03 10:12+0200\n"
+"POT-Creation-Date: 2019-07-29 15:47+0200\n"
 "PO-Revision-Date: 2015-12-29 14:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: GT Blocks Pro<support@germanthemes.de>\n"
@@ -44,8 +44,8 @@ msgstr ""
 #: includes/class-gt-blocks-pro-plugin-updater.php:210
 #, php-format
 msgid ""
-"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
-"or %5$supdate now%6$s."
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s or "
+"%5$supdate now%6$s."
 msgstr ""
 
 #: includes/class-gt-blocks-pro-plugin-updater.php:396
@@ -67,14 +67,14 @@ msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:172
 msgid ""
-"Enabled custom image sizes. This setting will only affect new uploaded "
-"images unless you regenerate existing thumbnails with a plugin."
+"Enabled custom image sizes. This setting will only affect new uploaded images "
+"unless you regenerate existing thumbnails with a plugin."
 msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:181
 msgid ""
-"Please activate your license in order to receive automatic plugin updates "
-"and support."
+"Please activate your license in order to receive automatic plugin updates and "
+"support."
 msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:264
@@ -115,8 +115,7 @@ msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:354
 msgid ""
-"Your license has expired, renew today to continue getting updates and "
-"support!"
+"Your license has expired, renew today to continue getting updates and support!"
 msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:355
@@ -128,8 +127,7 @@ msgid "Invalid"
 msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:360
-msgid ""
-"Please make sure you have not reached site limits and/or expiration date."
+msgid "Please make sure you have not reached site limits and/or expiration date."
 msgstr ""
 
 #: includes/class-gt-blocks-pro-settings.php:364
