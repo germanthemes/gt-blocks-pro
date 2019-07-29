@@ -1,0 +1,19 @@
+.wp-block-gt-blocks-pro-multiple-buttons {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: -1.5rem;
+	margin-bottom: 1.5em;
+
+	.wp-block-gt-blocks-pro-button {
+		margin-right: 1.5rem;
+		margin-bottom: 0;
+	}
+
+	&.gt-align-center {
+		justify-content: center;
+	}
+
+	&.gt-align-right {
+		justify-content: flex-end;
+	}
+}

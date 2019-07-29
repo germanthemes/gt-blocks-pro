@@ -1,0 +1,157 @@
+// containerWidth.
+$padding: 1.25rem;
+$iconPadding: 32px; // Default padding.
+
+.wp-block-gt-blocks-pro-icon {
+	margin-bottom: 1.5em;
+
+	.gt-icon {
+		display: inline-block;
+
+		.gt-icon-svg {
+			display: inline-block;
+			line-height: 0;
+
+			.icon {
+				margin: 0;
+				width: 32px;
+				height: 32px;
+				vertical-align: middle;
+				fill: currentColor;
+			}
+		}
+
+		/* Icon Size */
+		&.gt-icon-small {
+			.gt-icon-svg .icon {
+				width: 16px;
+				height: 16px;
+			}
+		}
+
+		&.gt-icon-medium {
+			.gt-icon-svg .icon {
+				width: 48px;
+				height: 48px;
+			}
+		}
+
+		&.gt-icon-large {
+			.gt-icon-svg .icon {
+				width: 64px;
+				height: 64px;
+			}
+		}
+
+		&.gt-icon-extra-large {
+			.gt-icon-svg .icon {
+				width: 96px;
+				height: 96px;
+			}
+		}
+
+		&.gt-icon-huge {
+			.gt-icon-svg .icon {
+				width: 128px;
+				height: 128px;
+			}
+		}
+
+		/* Icon Layout */
+		&.gt-icon-full {
+			display: block;
+			padding: 0 $padding;
+
+			.gt-icon-svg {
+				padding-top: $iconPadding;
+				padding-bottom: $iconPadding;
+			}
+		}
+
+		&.gt-icon-square {
+			display: inline-block;
+			padding: 0;
+
+			.gt-icon-svg {
+				padding: $iconPadding;
+			}
+		}
+
+		&.gt-icon-rounded {
+			display: inline-block;
+			padding: 0;
+			border-radius: 5px;
+
+			.gt-icon-svg {
+				padding: $iconPadding;
+			}
+		}
+
+		&.gt-icon-circular {
+			display: inline-block;
+			padding: 0;
+			border-radius: 100%;
+
+			.gt-icon-svg {
+				padding: $iconPadding;
+			}
+		}
+
+		&.gt-icon-outline {
+			padding: 0;
+
+			.gt-icon-svg {
+				display: inline-block;
+				padding: $iconPadding;
+				border-radius: 100%;
+				border: 2px solid currentColor;
+			}
+
+			&.has-background {
+				padding: $padding;
+			}
+
+			&.gt-icon-thin-border .gt-icon-svg {
+				border-width: 1px;
+			}
+
+			&.gt-icon-thick-border .gt-icon-svg {
+				border-width: 4px;
+			}
+		}
+
+		&.gt-icon-circular:not(.has-background),
+		&.gt-icon-square:not(.has-background),
+		&.gt-icon-rounded:not(.has-background),
+		&.gt-icon-full:not(.has-background) {
+			background-color: rgba(0,0,0,0.1);
+		}
+
+		/* Icon Size */
+		&.gt-icon-small-padding {
+			.gt-icon-svg {
+				padding: 16px;
+			}
+		}
+
+		&.gt-icon-medium-padding {
+			.gt-icon-svg {
+				padding: 48px;
+			}
+		}
+
+		&.gt-icon-large-padding {
+			.gt-icon-svg {
+				padding: 64px;
+			}
+		}
+
+		/* Rest Horizontal Padding for full layout */
+		&.gt-icon-full {
+			.gt-icon-svg {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+}

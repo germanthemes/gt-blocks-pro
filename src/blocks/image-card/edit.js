@@ -1,0 +1,296 @@
+/**
+ * External dependencies
+ */
+import classnames from 'classnames';
+const { getComputedStyle } = window;
+
+/**
+ * WordPress dependencies
+ */
+const {
+	Component,
+	Fragment,
+} = wp.element;
+
+const { __ } = wp.i18n;
+const { compose } = wp.compose;
+const { withSelect } = wp.data;
+
+const {
+	BlockAlignmentToolbar,
+	BlockControls,
+	ContrastChecker,
+	InnerBlocks,
+	InspectorControls,
+	PanelColorSettings,
+	withColors,
+} = wp.editor;
+
+const {
+	BaseControl,
+	PanelBody,
+	SelectControl,
+	ToggleControl,
+	Toolbar,
+	withFallbackStyles,
+} = wp.components;
+
+/**
+ * Internal dependencies
+ */
+import ImageBlockEdit from '../../components/image-block/edit';
+import {
+	gtIconVerticalAlignTop,
+	gtIconVerticalAlignCenter,
+	gtIconVerticalAlignBottom,
+} from '../../components/icons';
+
+// Define vertical alignment controls.
+const verticalAlignmentControls = {
+	top: {
+		icon: gtIconVerticalAlignTop,
+		title: __( 'Top', 'gt-blocks-pro' ),
+	},
+	center: {
+		icon: gtIconVerticalAlignCenter,
+		title: __( 'Center', 'gt-blocks-pro' ),
+	},
+	bottom: {
+		icon: gtIconVerticalAlignBottom,
+		title: __( 'Bottom', 'gt-blocks-pro' ),
+	},
+};
+
+// Define block template.
+const TEMPLATE = [
+	[ 'gt-blocks-pro/content', {
+		template: [
+			[ 'core/paragraph' ],
+		],
+	} ],
+];
+
+/**
+ * Block Edit Component
+ */
+class ImageCardEdit extends Component {
+	componentDidUpdate() {
+		const {
+			attributes,
+			setAttributes,
+			wideControlsEnabled,
+		} = this.props;
+
+		// Set block alignment to default if theme does not support wide and full width blocks.
+		if ( ! wideControlsEnabled && 'default' !== attributes.blockAlignment ) {
+			setAttributes( { blockAlignment: 'default' } );
+		}
+	}
+
+	render() {
+		const {
+			attributes,
+			setAttributes,
+			className,
+			backgroundColor,
+			setBackgroundColor,
+			fallbackBackgroundColor,
+			textColor,
+			setTextColor,
+			fallbackTextColor,
+			wideControlsEnabled,
+		} = this.props;
+
+		const {
+			blockAlignment,
+			imagePosition,
+			contentWidth,
+			verticalAlignment,
+			columnGap,
+			overlayCard,
+		} = attributes;
+
+		const blockClasses = classnames( className, {
+			[ `gt-image-position-${ imagePosition }` ]: 'left' !== imagePosition,
+			[ `gt-content-width-${ contentWidth }` ]: '50' !== contentWidth,
+			[ `gt-vertical-align-${ verticalAlignment }` ]: 'top' !== verticalAlignment,
+			[ `gt-${ columnGap }-column-gap` ]: 'normal' !== columnGap,
+			'gt-overlay-card': overlayCard,
+			'has-text-color': textColor.color,
+			[ textColor.class ]: textColor.class,
+			'has-background': backgroundColor.color,
+			[ backgroundColor.class ]: backgroundColor.class,
+		} );
+
+		const blockStyles = {
+			color: textColor.class ? undefined : textColor.color,
+			backgroundColor: backgroundColor.class ? undefined : backgroundColor.color,
+		};
+
+		return (
+			<Fragment>
+
+				<BlockControls>
+
+					{ wideControlsEnabled && (
+						<BlockAlignmentToolbar
+							value={ blockAlignment }
+							onChange={ ( newAlign ) => setAttributes( { blockAlignment: newAlign ? newAlign : 'default' } ) }
+							controls={ [ 'wide', 'full' ] }
+						/>
+					) }
+
+					<Toolbar
+						className="gt-image-position-control"
+						controls={ [ {
+							icon: 'align-pull-left',
+							title: __( 'Show image on left', 'gt-blocks-pro' ),
+							isActive: imagePosition === 'left',
+							onClick: () => setAttributes( { imagePosition: 'left' } ),
+						}, {
+							icon: 'align-pull-right',
+							title: __( 'Show image on right', 'gt-blocks-pro' ),
+							isActive: imagePosition === 'right',
+							onClick: () => setAttributes( { imagePosition: 'right' } ),
+						} ] }
+					/>
+
+				</BlockControls>
+
+				<InspectorControls>
+
+					<PanelBody title={ __( 'Layout Settings', 'gt-blocks-pro' ) } initialOpen={ true } className="gt-panel-layout-settings gt-panel">
+
+						<SelectControl
+							label={ __( 'Content Width', 'gt-blocks-pro' ) }
+							value={ contentWidth }
+							onChange={ ( newWidth ) => setAttributes( { contentWidth: newWidth } ) }
+							options={ [
+								{ value: '30', label: __( '30%', 'gt-blocks-pro' ) },
+								{ value: '40', label: __( '40%', 'gt-blocks-pro' ) },
+								{ value: '50', label: __( '50%', 'gt-blocks-pro' ) },
+								{ value: '60', label: __( '60%', 'gt-blocks-pro' ) },
+								{ value: '70', label: __( '70%', 'gt-blocks-pro' ) },
+							] }
+						/>
+
+						<BaseControl id="gt-vertical-alignment" label={ __( 'Vertical Alignment', 'gt-blocks-pro' ) }>
+							<Toolbar
+								className="gt-vertical-align-control"
+								controls={
+									[ 'top', 'center', 'bottom' ].map( control => {
+										return {
+											...verticalAlignmentControls[ control ],
+											isActive: verticalAlignment === control,
+											onClick: () => setAttributes( { verticalAlignment: control } ),
+										};
+									} )
+								}
+							/>
+						</BaseControl>
+
+						<SelectControl
+							label={ __( 'Column Gap', 'gt-blocks-pro' ) }
+							value={ columnGap }
+							onChange={ ( value ) => setAttributes( { columnGap: value } ) }
+							options={ [
+								{ value: 'none', label: __( 'None', 'gt-blocks-pro' ) },
+								{ value: 'small', label: __( 'Small', 'gt-blocks-pro' ) },
+								{ value: 'normal', label: __( 'Normal', 'gt-blocks-pro' ) },
+								{ value: 'medium', label: __( 'Medium', 'gt-blocks-pro' ) },
+								{ value: 'large', label: __( 'Large', 'gt-blocks-pro' ) },
+								{ value: 'extra-large', label: __( 'Extra Large', 'gt-blocks-pro' ) },
+							] }
+						/>
+
+						<ToggleControl
+							label={ __( 'Overlap image and content?', 'gt-blocks-pro' ) }
+							checked={ !! overlayCard }
+							onChange={ () => setAttributes( { overlayCard: ! overlayCard } ) }
+						/>
+
+					</PanelBody>
+
+				</InspectorControls>
+
+				<div className={ blockClasses } style={ blockStyles }>
+
+					<div className="gt-image-card-columns">
+
+						<div className="gt-image-column">
+
+							<ImageBlockEdit
+								customClasses="gt-image"
+								isPanelOpen={ false }
+								{ ...this.props }
+							/>
+
+						</div>
+
+						<div className="gt-text-column">
+
+							<InnerBlocks
+								allowedBlocks={ [ 'gt-blocks-pro/content' ] }
+								template={ TEMPLATE }
+								templateLock="all"
+							/>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<InspectorControls>
+
+					<PanelColorSettings
+						title={ __( 'Color Settings', 'gt-blocks-pro' ) }
+						initialOpen={ false }
+						colorSettings={ [
+							{
+								value: backgroundColor.color,
+								onChange: setBackgroundColor,
+								label: __( 'Background Color', 'gt-blocks-pro' ),
+							},
+							{
+								value: textColor.color,
+								onChange: setTextColor,
+								label: __( 'Text Color', 'gt-blocks-pro' ),
+							},
+						] }
+					>
+						<ContrastChecker
+							{ ...{
+								textColor: textColor.color,
+								backgroundColor: backgroundColor.color,
+								fallbackTextColor,
+								fallbackBackgroundColor,
+							} }
+						/>
+					</PanelColorSettings>
+
+				</InspectorControls>
+
+			</Fragment>
+		);
+	}
+}
+
+export default compose( [
+	withSelect(
+		( select ) => ( {
+			wideControlsEnabled: select( 'core/editor' ).getEditorSettings().alignWide,
+		} )
+	),
+	withColors( 'backgroundColor', { textColor: 'color' } ),
+	withFallbackStyles( ( node, ownProps ) => {
+		const { textColor, backgroundColor } = ownProps.attributes;
+		const editableNode = node.querySelector( '[contenteditable="true"]' );
+		//verify if editableNode is available, before using getComputedStyle.
+		const computedStyles = editableNode ? getComputedStyle( editableNode ) : null;
+		return {
+			fallbackBackgroundColor: backgroundColor || ! computedStyles ? undefined : computedStyles.backgroundColor,
+			fallbackTextColor: textColor || ! computedStyles ? undefined : computedStyles.color,
+		};
+	} ),
+] )( ImageCardEdit );

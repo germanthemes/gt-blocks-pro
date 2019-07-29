@@ -1,0 +1,92 @@
+/* Icon Picker Modal */
+.gt-blocks-pro-icon-picker-modal {
+	width: 100%;
+	max-width: 800px;
+
+	.components-modal__header-heading {
+		width: 100%;
+	}
+
+	.gt-icon-picker-title {
+		display: flex;
+		font-size: 1rem;
+		font-weight: bold;
+
+		.gt-remove-icon {
+			margin-left: auto;
+			margin-right: 1em;
+			color: #bc0b0b;
+		}
+	}
+
+	.gt-icon-picker-search {
+		width: 100%;
+		height: auto;
+		font-size: 16px;
+		padding: 6px 10px;
+		margin-bottom: 12px;
+	}
+
+	.gt-icon-picker-list {
+
+		.gt-icon-picker-grid {
+			display: grid;
+			grid-gap: 4px;
+			grid-template-columns: repeat(auto-fill, minmax( 56px, 1fr ) );
+
+			.gt-icon-link {
+				display: block;
+				padding: 0;
+				background: #f0f0f0;
+				text-align: center;
+
+				&:hover,
+				&:active {
+					background: #e0e0e0;
+					cursor: pointer;
+				}
+
+				.gt-icon-svg {
+					display: inline-block;
+					padding: 16px;
+
+					.icon {
+						width: 24px;
+						height: 24px;
+						fill: #202020;
+						vertical-align: middle;
+						pointer-events: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Icon Picker Placeholder */
+.gt-icon-placeholder-wrapper {
+
+	.gt-icon-placeholder {
+		min-height: 150px;
+	}
+
+	.gt-show-icon-picker {
+		display: block;
+		color: inherit;
+		padding: 0;
+		width: 100%;
+		text-align: inherit;
+		font-size: inherit;
+
+		.gt-icon-svg .icon {
+			pointer-events: none;
+		}
+
+		&:not(:disabled):not([aria-disabled=true]):focus {
+			background-color: inherit;
+			color: inherit;
+			box-shadow: none;
+			outline: none;
+		}
+	}
+}

@@ -1,0 +1,106 @@
+.gt-background-section {
+	display: flex;
+	flex-direction: column;
+
+	.gt-section-content {
+		margin-bottom: -30px;
+
+		> .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block:first-child > .editor-block-list__block-edit {
+			margin-top: 0;
+		}
+
+		> .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+			margin-left: -1px;
+			margin-right: -1px;
+		}
+		
+		&.gt-narrow-width .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+			max-width: calc( 560px + 30px );
+		}
+
+		&.gt-default-width .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+			max-width: calc( 720px + 30px );
+		}
+
+		&.gt-wide-width .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+			max-width: calc( 880px + 30px );
+		}
+
+		&.gt-full-width .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+			max-width: calc( 1040px + 30px );
+		}
+
+		/* Hide Block Appender */
+		.wp-block.editor-default-block-appender {
+			display: none;
+		}
+
+		> .editor-inner-blocks > .editor-block-list__layout > div:first-child > .wp-block.editor-default-block-appender {
+			display: block;
+		}
+
+		/* Add Blocks Button */
+		> .block-editor-inserter {
+			display: block;
+			margin: 0 0 30px;
+			padding: 0;
+
+			.block-editor-inserter__toggle {
+				display: flex;
+				justify-content: center;
+				width: 100%;
+				padding: 8px;
+				background: #fafafa;
+				border: 1px solid #ddd;
+
+				&:hover,
+				&:focus {
+					background: #f0f0f0;
+					border: 1px solid #999;
+					box-shadow: none;
+				}
+			}
+		}
+	}
+}
+
+.gt-background-image-panel {
+
+	.gt-background-image {
+
+		.gt-set-image {
+			display: block;
+			transition: all .1s ease-out;
+			width: 100%;
+			background-color: #edeff0;
+			border: 1px dashed #a2aab2;
+			line-height: 20px;
+			padding: 10px 0;
+			text-align: center;
+
+			&:hover {
+				background-color: #f8f9f9;
+			}
+		}
+
+		.gt-image-button {
+			display: block;
+			padding: 0;
+
+			img {
+				vertical-align: top;
+			}
+		}
+
+		.gt-image-controls {
+			display: flex;
+			margin-top: 5px;
+			margin-bottom: 1.5em;
+
+			.gt-replace-image {
+				margin-top: 3px;
+				margin-right: 12px;
+			}
+		}
+	}
+}

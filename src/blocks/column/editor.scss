@@ -1,0 +1,32 @@
+.wp-block-gt-blocks-pro-column {
+	display: block;
+	margin-bottom: 0;
+
+	/* Column Controls*/
+	.gt-column-controls {
+		display: flex;
+		margin-top: 16px;
+		padding: 8px;
+		width: 100%;
+		background: #edeff0;
+		border: 1px solid #e2e4e7;
+
+		.components-icon-button {
+			padding: 4px 5px;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background: #fff;
+			}
+
+			.dashicon {
+				width: 18px;
+			}
+		}
+
+		.remove-column {
+			margin-left: auto;
+		}
+	}
+}

@@ -1,0 +1,935 @@
+# Translation of Themes + Pro Versions + Add-ons in German
+# This file is distributed under the same license as the Themes + Pro Versions + Add-ons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: GT Blocks Pro\n"
+"Report-Msgid-Bugs-To: https://themezee.com/\n"
+"POT-Creation-Date: 2019-07-03 10:15+0200\n"
+"PO-Revision-Date: 2019-07-03 10:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: GT Blocks Pro<support@germanthemes.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: blocks/button/edit.js:146
+msgid "Uppercase"
+msgstr "Großbuchstaben"
+
+#: blocks/button/edit.js:154
+msgid "Bold"
+msgstr "Fett"
+
+#: blocks/button/edit.js:162
+msgid "Italic"
+msgstr "Kursiv"
+
+#: blocks/button/edit.js:173
+msgid "Button Settings"
+msgstr "Button-Einstellungen"
+
+#: blocks/button/edit.js:176
+msgid "Button Size"
+msgstr "Button-Größe"
+
+#: blocks/button/edit.js:180 blocks/columns/edit.js:267 blocks/icon/edit.js:141
+#: blocks/icon/edit.js:156 blocks/image-card/edit.js:198
+#: components/background-section/edit.js:192
+#: components/background-section/edit.js:206
+#: components/content-container/edit.js:89
+#: components/grid-container/edit.js:205
+msgid "Small"
+msgstr "Klein"
+
+#: blocks/button/edit.js:181 blocks/columns/edit.js:269 blocks/icon/edit.js:143
+#: blocks/icon/edit.js:158 blocks/image-card/edit.js:200
+#: components/background-section/edit.js:194
+#: components/background-section/edit.js:208
+#: components/content-container/edit.js:91
+#: components/grid-container/edit.js:207
+msgid "Medium"
+msgstr "Mittel"
+
+#: blocks/button/edit.js:182 blocks/columns/edit.js:270 blocks/icon/edit.js:144
+#: blocks/icon/edit.js:159 blocks/image-card/edit.js:201
+#: components/background-section/edit.js:195
+#: components/background-section/edit.js:209
+#: components/content-container/edit.js:92
+#: components/grid-container/edit.js:208
+msgid "Large"
+msgstr "Groß"
+
+#: blocks/button/edit.js:183 blocks/columns/edit.js:271 blocks/icon/edit.js:145
+#: blocks/image-card/edit.js:202 components/background-section/edit.js:196
+#: components/background-section/edit.js:210
+#: components/content-container/edit.js:93
+#: components/grid-container/edit.js:209
+msgid "Extra Large"
+msgstr "Sehr groß"
+
+#: blocks/button/edit.js:188
+msgid "Button Shape"
+msgstr "Button-Form"
+
+#: blocks/button/edit.js:192 blocks/image/index.js:45
+msgid "Squared"
+msgstr "Rechteckig"
+
+#: blocks/button/edit.js:193 blocks/image/index.js:46
+msgid "Rounded Corners"
+msgstr "Runde Ecken"
+
+#: blocks/button/edit.js:194 blocks/icon/edit.js:128
+msgid "Circular"
+msgstr "Kreisförmig"
+
+#: blocks/button/edit.js:199
+msgid "Hover Style"
+msgstr "Hover-Style"
+
+#: blocks/button/edit.js:203
+msgid "Transparent White"
+msgstr "Transparent Weiß"
+
+#: blocks/button/edit.js:204
+msgid "Transparent Black"
+msgstr "Transparent Schwarz"
+
+#: blocks/button/edit.js:205
+msgid "Underlined"
+msgstr "Unterstrichen"
+
+#: blocks/button/edit.js:206 blocks/button/edit.js:219
+#: blocks/heading/edit.js:142 blocks/icon/edit.js:186
+#: blocks/image-card/edit.js:253 components/background-section/edit.js:225
+#: components/content-container/edit.js:112
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: blocks/button/edit.js:213 blocks/heading/edit.js:136 blocks/icon/edit.js:180
+#: blocks/image-card/edit.js:247 components/background-section/edit.js:219
+#: components/content-container/edit.js:106
+msgid "Color Settings"
+msgstr "Farbeinstellungen"
+
+#: blocks/button/edit.js:224 blocks/heading/edit.js:147 blocks/icon/edit.js:191
+#: blocks/image-card/edit.js:258 components/background-section/edit.js:230
+#: components/content-container/edit.js:117
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: blocks/button/edit.js:240 blocks/button/edit.js:246
+msgid "Hover Color"
+msgstr "Hover-Farbe"
+
+#: blocks/button/edit.js:264
+msgid "Add text…"
+msgstr "Text hinzufügen…"
+
+#: blocks/button/edit.js:280
+msgid "Apply"
+msgstr "Anwenden"
+
+#: blocks/button/index.js:29
+msgid "GT Button"
+msgstr "GT Button"
+
+#: blocks/button/index.js:31
+msgid "Add a button and style it."
+msgstr "Button hinzufügen und gestalten."
+
+#: blocks/button/index.js:38
+msgid "Link"
+msgstr "Link"
+
+#: blocks/button/index.js:39
+msgid "Call to Action"
+msgstr "Call to Action"
+
+#: blocks/button/index.js:40
+msgid "German Themes"
+msgstr "German Themes"
+
+#: blocks/button/index.js:112 blocks/icon/edit.js:127
+msgid "Default"
+msgstr "Standard"
+
+#: blocks/button/index.js:113
+msgid "Ghost Button"
+msgstr "Ghost Button"
+
+#: blocks/column/edit.js:134
+msgid "Move up"
+msgstr "Nach oben"
+
+#: blocks/column/edit.js:142
+msgid "Move down"
+msgstr "Nach unten"
+
+#: blocks/column/edit.js:150
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: blocks/column/edit.js:157
+msgid "Remove"
+msgstr "Entfernen"
+
+#: blocks/column/index.js:23
+msgid "GT Column"
+msgstr "GT Column"
+
+#: blocks/column/index.js:25
+msgid "A single column within a grid block."
+msgstr "Eine einzelne Spalte in einem Grid-Block."
+
+#: blocks/columns/edit.js:48
+msgid "50% | 50%"
+msgstr "50% | 50%"
+
+#: blocks/columns/edit.js:49
+msgid "60% | 40%"
+msgstr "60% | 40%"
+
+#: blocks/columns/edit.js:50
+msgid "40% | 60%"
+msgstr "40% | 60%"
+
+#: blocks/columns/edit.js:51
+msgid "66% | 33%"
+msgstr "66% | 33%"
+
+#: blocks/columns/edit.js:52
+msgid "33% | 66%"
+msgstr "33% | 66%"
+
+#: blocks/columns/edit.js:53
+msgid "75% | 25%"
+msgstr "75% | 25%"
+
+#: blocks/columns/edit.js:54
+msgid "25% | 75%"
+msgstr "25% | 75%"
+
+#: blocks/columns/edit.js:59
+msgid "33% | 33% | 33%"
+msgstr "33% | 33% | 33%"
+
+#: blocks/columns/edit.js:60
+msgid "30% | 40% | 30%"
+msgstr "30% | 40% | 30%"
+
+#: blocks/columns/edit.js:61
+msgid "20% | 60% | 20%"
+msgstr "20% | 60% | 20%"
+
+#: blocks/columns/edit.js:62
+msgid "50% | 25% | 25%"
+msgstr "50% | 25% | 25%"
+
+#: blocks/columns/edit.js:63
+msgid "25% | 50% | 25%"
+msgstr "25% | 50% | 25%"
+
+#: blocks/columns/edit.js:64
+msgid "25% | 25% | 50%"
+msgstr "25% | 25% | 50%"
+
+#: blocks/columns/edit.js:69
+msgid "25% | 25% | 25% | 25%"
+msgstr "25% | 25% | 25% | 25%"
+
+#: blocks/columns/edit.js:70
+msgid "40% | 20% | 20% | 20%"
+msgstr "40% | 20% | 20% | 20%"
+
+#: blocks/columns/edit.js:71
+msgid "20% | 20% | 20% | 40%"
+msgstr "20% | 20% | 20% | 40%"
+
+#: blocks/columns/edit.js:205 blocks/image-card/edit.js:162
+#: blocks/multiple-buttons/edit.js:81 components/content-container/edit.js:81
+#: components/grid-container/edit.js:189
+msgid "Layout Settings"
+msgstr "Layout-Einstellungen"
+
+#: blocks/columns/edit.js:207
+msgid "Two Columns"
+msgstr "Zwei Spalten"
+
+#: blocks/columns/edit.js:225
+msgid "Three Columns"
+msgstr "Drei Spalten"
+
+#: blocks/columns/edit.js:243
+msgid "Four Columns"
+msgstr "Vier Spalten"
+
+#: blocks/columns/edit.js:262 blocks/image-card/edit.js:193
+#: components/grid-container/edit.js:200
+msgid "Column Gap"
+msgstr "Spalten-Abstand"
+
+#: blocks/columns/edit.js:266 blocks/image-card/edit.js:197
+#: components/background-section/edit.js:191
+#: components/background-section/edit.js:205
+#: components/content-container/edit.js:88
+#: components/grid-container/edit.js:204 components/image-block/edit.js:166
+msgid "None"
+msgstr "Keiner"
+
+#: blocks/columns/edit.js:268 blocks/icon/edit.js:142 blocks/icon/edit.js:157
+#: blocks/icon/edit.js:171 blocks/image-card/edit.js:199
+#: components/background-section/edit.js:193
+#: components/background-section/edit.js:207
+#: components/grid-container/edit.js:206
+msgid "Normal"
+msgstr "Normal"
+
+#: blocks/columns/edit.js:300
+msgid "Change column layout"
+msgstr "Spalten-Layout ändern"
+
+#: blocks/columns/index.js:26
+msgid "GT Columns"
+msgstr "GT Columns"
+
+#: blocks/columns/index.js:28
+msgid "Display your content in multiple columns with flexible widths."
+msgstr "Blocks in mehreren Spalten mit flexiblen Breiten hinzufügen."
+
+#: blocks/columns/index.js:35 blocks/features/index.js:30
+#: blocks/grid-layout/index.js:29 blocks/hero-image/index.js:37
+#: blocks/icon/index.js:36 blocks/portfolio/index.js:30
+#: blocks/section/index.js:31
+msgid "GT Blocks Pro"
+msgstr "GT Blocks Pro"
+
+#: blocks/columns/index.js:36
+msgid "Column"
+msgstr "Spalte"
+
+#: blocks/columns/index.js:37 blocks/icon/index.js:38
+msgid "Layout"
+msgstr "Layout"
+
+#: blocks/content/index.js:23
+msgid "GT Content"
+msgstr "GT Content"
+
+#: blocks/content/index.js:25
+msgid "A wrapper for your content blocks."
+msgstr "Ein Container für deine Content-Blocks."
+
+#: blocks/features/edit.js:16
+msgid "Feature"
+msgstr "Feature"
+
+#: blocks/features/edit.js:19
+msgid "Write feature description..."
+msgstr "Feature-Beschreibung schreiben..."
+
+#: blocks/features/index.js:21
+msgid "GT Features"
+msgstr "GT Features"
+
+#: blocks/features/index.js:23
+msgid "Add a block that displays your product or service features."
+msgstr "Stelle die Features deines Produkts oder Dienstleistung vor."
+
+#: blocks/features/index.js:31 blocks/icon/index.js:37
+#: components/icon-picker/index.js:143
+msgid "Icon"
+msgstr "Icon"
+
+#: blocks/features/index.js:32 blocks/portfolio/index.js:32
+msgid "Grid"
+msgstr "Grid"
+
+#: blocks/grid-layout/index.js:20
+msgid "GT Grid Layout"
+msgstr "GT Grid Layout"
+
+#: blocks/grid-layout/index.js:22
+msgid "Add a block that displays child blocks in a grid layout."
+msgstr "Zeige deine Inhalte in einem Grid-Layout an."
+
+#: blocks/grid-layout/index.js:30
+msgid "Multiple"
+msgstr "Mehrere"
+
+#: blocks/grid-layout/index.js:31 components/grid-container/edit.js:192
+msgid "Columns"
+msgstr "Spalten"
+
+#: blocks/heading/edit.js:92 blocks/heading/edit.js:111
+#, javascript-format
+msgid "Heading %s"
+msgstr "Überschrift %s"
+
+#: blocks/heading/edit.js:104
+msgid "Heading Settings"
+msgstr "Überschrift-Einstellungen"
+
+#: blocks/heading/edit.js:106
+msgid "Level"
+msgstr "Ebene"
+
+#: blocks/heading/edit.js:120
+msgid "Text Alignment"
+msgstr "Textausrichtung"
+
+#: blocks/heading/edit.js:171
+msgid "Write heading…"
+msgstr "Überschrift schreiben…"
+
+#: blocks/heading/index.js:30
+msgid "GT Heading"
+msgstr "GT Heading"
+
+#: blocks/heading/index.js:32
+msgid "Add a headline and style it."
+msgstr "Füge eine Überschrift ein und gestalte sie."
+
+#: blocks/heading/index.js:39
+msgid "Title"
+msgstr "Titel"
+
+#: blocks/heading/index.js:40
+msgid "Subheading"
+msgstr "Untertitel"
+
+#: blocks/heading/index.js:41
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: blocks/hero-image/edit.js:36
+msgid "Write Hero Heading..."
+msgstr "Hero Überschrift schreiben..."
+
+#: blocks/hero-image/edit.js:40
+msgid "Write Hero text..."
+msgstr "Hero Text schreiben..."
+
+#: blocks/hero-image/edit.js:94
+msgid "Content Settings"
+msgstr "Content-Einstellungen"
+
+#: blocks/hero-image/edit.js:95
+msgid "Image Block"
+msgstr "Bild-Block"
+
+#: blocks/hero-image/edit.js:102
+msgid "Remove Block"
+msgstr "Block entfernen"
+
+#: blocks/hero-image/edit.js:102 components/grid-container/edit.js:220
+msgid "Add Block"
+msgstr "Block hinzufügen"
+
+#: blocks/hero-image/edit.js:107
+msgid "Content Position"
+msgstr "Content-Position"
+
+#: blocks/hero-image/edit.js:111
+msgid "Left"
+msgstr "Links"
+
+#: blocks/hero-image/edit.js:112
+msgid "Right"
+msgstr "Rechts"
+
+#: blocks/hero-image/edit.js:117 blocks/image-card/edit.js:165
+#: components/background-section/edit.js:173
+msgid "Content Width"
+msgstr "Content-Breite"
+
+#: blocks/hero-image/edit.js:121 blocks/image-card/edit.js:169
+msgid "30%"
+msgstr "30%"
+
+#: blocks/hero-image/edit.js:122 blocks/image-card/edit.js:170
+#: components/image-block/edit.js:258
+msgid "40%"
+msgstr "40%"
+
+#: blocks/hero-image/edit.js:123 blocks/image-card/edit.js:171
+#: components/image-block/edit.js:257
+msgid "50%"
+msgstr "50%"
+
+#: blocks/hero-image/edit.js:124 blocks/image-card/edit.js:172
+#: components/image-block/edit.js:256
+msgid "60%"
+msgstr "60%"
+
+#: blocks/hero-image/edit.js:125 blocks/image-card/edit.js:173
+msgid "70%"
+msgstr "70%"
+
+#: blocks/hero-image/index.js:28
+msgid "GT Hero Image"
+msgstr "GT Hero Image"
+
+#: blocks/hero-image/index.js:30
+msgid "Add a block with an eye catching headline and call to action buttons."
+msgstr ""
+"Füge einen Block mit großer Überschrift und Call-to-Action-Buttons hinzu."
+
+#: blocks/hero-image/index.js:38
+msgid "Hero Image"
+msgstr "Hero-Bild"
+
+#: blocks/hero-image/index.js:39
+msgid "Text"
+msgstr "Text"
+
+#: blocks/icon/edit.js:120
+msgid "Icon Settings"
+msgstr "Icon-Einstellungen"
+
+#: blocks/icon/edit.js:123
+msgid "Icon Style"
+msgstr "Icon-Style"
+
+#: blocks/icon/edit.js:129
+msgid "Outline"
+msgstr "Rahmen"
+
+#: blocks/icon/edit.js:130
+msgid "Square"
+msgstr "Quadratisch"
+
+#: blocks/icon/edit.js:131
+msgid "Rounded"
+msgstr "Gerundet"
+
+#: blocks/icon/edit.js:132
+msgid "Full"
+msgstr "Volle Breite"
+
+#: blocks/icon/edit.js:137
+msgid "Icon Size"
+msgstr "Icon-Größe"
+
+#: blocks/icon/edit.js:146
+msgid "Huge"
+msgstr "Riesig"
+
+#: blocks/icon/edit.js:152
+msgid "Icon Padding"
+msgstr "Icon-Abstand"
+
+#: blocks/icon/edit.js:166
+msgid "Border Width"
+msgstr "Rahmenbreite"
+
+#: blocks/icon/edit.js:170
+msgid "Thin"
+msgstr "Dünn"
+
+#: blocks/icon/edit.js:172
+msgid "Thick"
+msgstr "Dick"
+
+#: blocks/icon/index.js:27
+msgid "GT Icon"
+msgstr "GT Icon"
+
+#: blocks/icon/index.js:29
+msgid "Insert a single icon."
+msgstr "Füge ein einzelnes Icon ein."
+
+#: blocks/image-card/edit.js:52
+msgid "Top"
+msgstr "Oben"
+
+#: blocks/image-card/edit.js:56
+msgid "Center"
+msgstr "Mittig"
+
+#: blocks/image-card/edit.js:60
+msgid "Bottom"
+msgstr "Unten"
+
+#: blocks/image-card/edit.js:147
+msgid "Show image on left"
+msgstr "Bild auf der linken Seite anzeigen"
+
+#: blocks/image-card/edit.js:152
+msgid "Show image on right"
+msgstr "Bild auf der rechten Seite anzeigen"
+
+#: blocks/image-card/edit.js:177
+msgid "Vertical Alignment"
+msgstr "Vertikale Ausrichtung"
+
+#: blocks/image-card/edit.js:207
+msgid "Overlap image and content?"
+msgstr "Bild und Content überlappen?"
+
+#: blocks/image-card/index.js:31
+msgid "GT Image Card"
+msgstr "GT Image Card"
+
+#: blocks/image-card/index.js:33
+msgid "Insert a single image with a text card side-by-side."
+msgstr "Füge ein einzelnes Bild zusammen mit einer Text Card ein."
+
+#: blocks/image/index.js:27
+msgid "GT Image"
+msgstr "GT Image"
+
+#: blocks/image/index.js:29
+msgid "Insert a single image."
+msgstr "Füge ein einzelnes Bild ein."
+
+#: blocks/image/index.js:47
+msgid "Circle"
+msgstr "Rund"
+
+#: blocks/multiple-buttons/edit.js:84
+msgid "Number of buttons"
+msgstr "Anzahl der Buttons"
+
+#: blocks/multiple-buttons/edit.js:91
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: blocks/multiple-buttons/index.js:28
+msgid "GT Multiple Buttons"
+msgstr "GT Multiple Buttons"
+
+#: blocks/multiple-buttons/index.js:30
+msgid "Insert multiple buttons."
+msgstr "Mehrere Buttons einfügen."
+
+#: blocks/portfolio/edit.js:16
+msgid "Project"
+msgstr "Projekt"
+
+#: blocks/portfolio/edit.js:19
+msgid "Write project description..."
+msgstr "Projekt-Beschreibung eingeben..."
+
+#: blocks/portfolio/index.js:21
+msgid "GT Portfolio"
+msgstr "GT Portfolio"
+
+#: blocks/portfolio/index.js:23
+msgid "Add a block that displays your projects or services in a grid layout."
+msgstr "Zeige deine Projekte oder Leistungen in einem Grid-Layout an."
+
+#: blocks/portfolio/index.js:31 components/image-placeholder/index.js:45
+msgid "Image"
+msgstr "Bild"
+
+#: blocks/section/index.js:22
+msgid "GT Section"
+msgstr "GT Section"
+
+#: blocks/section/index.js:24
+msgid "Add a section block, then use whatever content blocks you’d like."
+msgstr "Erstelle einen Sektions-Block, und füge danach beliebige Blöcke ein."
+
+#: blocks/section/index.js:32
+msgid "Container"
+msgstr "Container"
+
+#: blocks/section/index.js:33
+msgid "Wrap"
+msgstr "Mantel"
+
+#: components/background-section/edit.js:168 plugins/section-insert/index.js:76
+msgid "Section Settings"
+msgstr "Sektions-Einstellungen"
+
+#: components/background-section/edit.js:177
+msgid "Narrow width"
+msgstr "Schmale Breite"
+
+#: components/background-section/edit.js:178
+msgid "Default width"
+msgstr "Standardbreite"
+
+#: components/background-section/edit.js:179
+msgid "Wide width"
+msgstr "Weite Breite"
+
+#: components/background-section/edit.js:180
+msgid "Full width"
+msgstr "Volle Breite"
+
+#: components/background-section/edit.js:187
+msgid "Padding Top"
+msgstr "Innenabstand oben"
+
+#: components/background-section/edit.js:201
+msgid "Padding Bottom"
+msgstr "Innenabstand unten"
+
+#: components/background-section/edit.js:245
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: components/background-section/edit.js:252
+#: components/background-section/edit.js:257
+#: components/background-section/edit.js:267
+#: components/background-section/edit.js:284
+msgid "Set background image"
+msgstr "Hintergrundbild festlegen"
+
+#: components/background-section/edit.js:275
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+#: components/background-section/edit.js:290
+msgid "Replace image"
+msgstr "Bild ersetzen"
+
+#: components/background-section/edit.js:296
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: components/background-section/edit.js:312
+msgid "Image Opacity"
+msgstr "Bild-Transparenz"
+
+#: components/background-section/edit.js:320
+msgid "Background Position"
+msgstr "Hintergrund-Position"
+
+#: components/background-section/edit.js:324
+msgid "Left Top"
+msgstr "Linksoben"
+
+#: components/background-section/edit.js:325
+msgid "Left Center"
+msgstr "Linksmitte"
+
+#: components/background-section/edit.js:326
+msgid "Left Bottom"
+msgstr "Linksunten"
+
+#: components/background-section/edit.js:327
+msgid "Center Top"
+msgstr "Mitte Oben"
+
+#: components/background-section/edit.js:328
+msgid "Center Center"
+msgstr "Mitte Mitte"
+
+#: components/background-section/edit.js:329
+msgid "Center Bottom"
+msgstr "Mitte Unten"
+
+#: components/background-section/edit.js:330
+msgid "Right Top"
+msgstr "Rechtsoben"
+
+#: components/background-section/edit.js:331
+msgid "Right Center"
+msgstr "Rechtsmitte"
+
+#: components/background-section/edit.js:332
+msgid "Right Bottom"
+msgstr "Rechtsunten"
+
+#: components/background-section/edit.js:337
+msgid "Fixed Background"
+msgstr "Hintergrund fixiert"
+
+#: components/content-container/edit.js:84
+msgid "Padding"
+msgstr "Innenabstand"
+
+#: components/content-container/edit.js:90
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: components/content-container/edit.js:98
+msgid "Remove padding of first block?"
+msgstr "Abstand für den ersten Block entfernen?"
+
+#: components/grid-container/edit.js:178
+#, javascript-format
+msgid "%s Columns"
+msgstr "%s Spalten"
+
+#: components/grid-container/edit.js:213
+msgid "Add grid item"
+msgstr "Grid-Element hinzufügen"
+
+#: components/grid-container/edit.js:249
+msgid "Change grid layout"
+msgstr "Grid-Layout ändern"
+
+#: components/icon-picker/index.js:141
+msgid "Choose an icon here."
+msgstr "Wähle ein Icon."
+
+#: components/icon-picker/index.js:146
+msgid "Select icon"
+msgstr "Icon auswählen"
+
+#: components/icon-picker/index.js:159
+msgid "Edit icon"
+msgstr "Icon bearbeiten"
+
+#: components/icon-picker/index.js:185
+msgid "Select Icon"
+msgstr "Icon auswählen"
+
+#: components/icon-picker/index.js:187
+msgid "Remove icon"
+msgstr "Icon entfernen"
+
+#: components/icon-picker/index.js:201
+msgid "Close"
+msgstr "Schließen"
+
+#: components/icon-picker/index.js:207
+msgid "Search for icon"
+msgstr "Nach Icon suchen"
+
+#: components/image-block/edit.js:167
+msgid "Media File"
+msgstr "Medien-Datei"
+
+#: components/image-block/edit.js:168
+msgid "Attachment Page"
+msgstr "Anhang-Seite"
+
+#: components/image-block/edit.js:169
+msgid "Custom URL"
+msgstr "Individuelle URL"
+
+#: components/image-block/edit.js:215
+msgid "Edit image"
+msgstr "Bild bearbeiten"
+
+#: components/image-block/edit.js:227
+msgid "Image Settings"
+msgstr "Bild-Einstellungen"
+
+#: components/image-block/edit.js:230
+msgid "Alt Text (Alternative Text)"
+msgstr "Alt-Text (Alternativer Text)"
+
+#: components/image-block/edit.js:233
+msgid ""
+"Describe the purpose of the image. Leave empty if the image is not a key "
+"part of the content."
+msgstr ""
+"Alternativtext beschreibt dein Bild den Menschen, die es nicht sehen können. "
+"Füge eine kurze Beschreibung mit den wichtigsten Details hinzu."
+
+#: components/image-block/edit.js:238
+msgid "Image Size"
+msgstr "Bildgröße"
+
+#: components/image-block/edit.js:249
+msgid "Maximum Width"
+msgstr "Maximale Breite"
+
+#: components/image-block/edit.js:253
+msgid "100%"
+msgstr "100%"
+
+#: components/image-block/edit.js:254
+msgid "85%"
+msgstr "85%"
+
+#: components/image-block/edit.js:255
+msgid "75%"
+msgstr "75%"
+
+#: components/image-block/edit.js:259
+msgid "25%"
+msgstr "25%"
+
+#: components/image-block/edit.js:265
+msgid "Link Settings"
+msgstr "Link-Einstellungen"
+
+#: components/image-block/edit.js:268
+msgid "Link To"
+msgstr "Link zur"
+
+#: components/image-block/edit.js:276
+msgid "Link URL"
+msgstr "Web-Adresse"
+
+#: components/image-placeholder/index.js:46
+msgid "an image"
+msgstr "ein Bild"
+
+#: components/image-placeholder/index.js:74
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: plugins/margin-bottom/index.js:37
+msgid "Remove bottom margin?"
+msgstr "Abstand nach unten entfernen?"
+
+#: plugins/section-insert/index.js:79
+msgid "Insert this block into a section block."
+msgstr "Diesen Block in eine Sektion einfügen."
+
+#: plugins/section-insert/index.js:88
+msgid "Insert into GT Section"
+msgstr "In GT Section einfügen"
+
+#: plugins/synchronize-styling/index.js:102
+msgid ""
+"Copy button settings and colors of this block and apply them to all sibling "
+"blocks."
+msgstr ""
+"Styling und Farben dieses Button-Blocks kopieren und auf alle "
+"Geschwisterblöcke anwenden."
+
+#: plugins/synchronize-styling/index.js:105
+msgid "Copy colors of this block and apply them to all sibling blocks."
+msgstr ""
+"Styling und Farben dieses Blocks kopieren und auf alle Geschwisterblöcke "
+"anwenden."
+
+#: plugins/synchronize-styling/index.js:108
+msgid ""
+"Copy heading settings and colors of this block and apply them to all sibling "
+"blocks."
+msgstr ""
+"Styling und Farben dieses Heading-Blocks kopieren und auf alle "
+"Geschwisterblöcke anwenden."
+
+#: plugins/synchronize-styling/index.js:111
+msgid ""
+"Copy icon settings and colors of this block and apply them to all sibling "
+"blocks."
+msgstr ""
+"Styling und Farben dieses Icon-Blocks kopieren und auf alle "
+"Geschwisterblöcke anwenden."
+
+#: plugins/synchronize-styling/index.js:114
+msgid ""
+"Copy image size and URL settings of this block and apply them to all sibling "
+"blocks."
+msgstr ""
+"Bildgröße und Link-Einstellungen dieses Bild-Blocks kopieren und auf alle "
+"Geschwisterblöcke anwenden."
+
+#: plugins/synchronize-styling/index.js:117
+msgid ""
+"Copy text settings and colors of this block and apply them to all sibling "
+"blocks."
+msgstr ""
+"Styling und Farben dieses Blocks kopieren und auf alle Geschwisterblöcke "
+"anwenden."
+
+#: plugins/synchronize-styling/index.js:128
+#: plugins/synchronize-styling/index.js:140
+msgid "Synchronize Styling"
+msgstr "Styling synchronisieren"

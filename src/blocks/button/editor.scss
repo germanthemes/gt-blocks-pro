@@ -1,0 +1,34 @@
+.wp-block-gt-blocks-pro-button {
+
+	.gt-button {
+		
+		&.gt-button-circular .gt-button-inner {
+			border-radius: 200px;
+		}
+
+		&.gt-button-rounded .gt-button-inner {
+			border-radius: 5px;
+		}
+
+		.gt-button-inner.editor-rich-text__tinymce {
+			line-height: 1;
+		}
+
+		&.gt-is-uppercase .gt-button-inner.editor-rich-text__tinymce {
+			line-height: 1.1;
+		}
+	}
+
+	&.gt-align-center .block-library-button__inline-link {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&.gt-align-right .block-library-button__inline-link {
+		margin-left: auto;
+	}
+
+	.block-library-button__inline-link {
+		margin-top: 16px;
+	}
+}

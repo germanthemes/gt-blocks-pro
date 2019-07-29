@@ -1,0 +1,35 @@
+/*
+ * GT Blocks Pro Settings CSS
+ *
+ * @package GT Blocks Pro
+ */
+
+.gt-blocks-pro-settings-form {
+	margin-top: 24px;
+}
+
+.gt-blocks-pro-settings .license-status {
+	display: inline-block;
+	margin: 0 12px 0 0;
+	padding: 4px 8px;
+	background: #444;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.gt-blocks-pro-settings .license-active {
+	background: green;
+}
+
+.gt-blocks-pro-settings .license-invalid,
+.gt-blocks-pro-settings .license-expired {
+	background: red;
+}
+
+.gt-blocks-pro-settings .license-description {
+	margin: 16px 0 0;
+}
+
+.gt-blocks-pro-settings .license-renewal {
+	margin: 16px 0 0;
+}

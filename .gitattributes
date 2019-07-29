@@ -1,0 +1,11 @@
+/config export-ignore
+/scripts export-ignore
+/src export-ignore
+.editorconfig export-ignore
+.eslintignore export-ignore
+.eslintrc.json export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+package.json export-ignore
+package-lock.json export-ignore
+README.md export-ignore

@@ -1,0 +1,12 @@
+.wp-block-gt-blocks-pro-column {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.5em;
+	min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+	.gt-column {
+		flex-grow: 1;
+	}
+}

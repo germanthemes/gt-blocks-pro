@@ -1,0 +1,150 @@
+.wp-block-gt-blocks-pro-image-card {
+	margin-bottom: 1.5em;
+
+	.wp-block-gt-blocks-pro-content {
+		margin-bottom: 0;
+	}
+
+	&.has-background .gt-text-column {
+		padding: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	.wp-block-gt-blocks-pro-image-card {
+
+		.gt-image-card-columns {
+			display: flex;
+		
+			.gt-image-column,
+			.gt-text-column {
+				display: flex;
+				flex-direction: column;
+				width: 50%;
+			}
+
+			.gt-image-column {
+				padding-right: 0.75rem;
+				padding-right: calc( var(--gt-column-gap) / 2 );
+			}
+	
+			.gt-text-column {
+				padding-left: 0.75rem;
+				padding-left: calc( var(--gt-column-gap) / 2 );
+			}
+		}
+		
+		&.gt-image-position-right {
+			.gt-image-card-columns { 
+				flex-direction: row-reverse;
+
+				.gt-image-column {
+					padding-right: 0;
+					padding-left: 0.75rem;
+					padding-left: calc( var(--gt-column-gap) / 2 );
+				}
+		
+				.gt-text-column {
+					padding-left: 0;
+					padding-right: 0.75rem;
+					padding-right: calc( var(--gt-column-gap) / 2 );
+				}
+			}
+		}
+
+		&.has-background.gt-image-position-right {
+			.gt-image-card-columns { 
+				.gt-text-column {
+					padding-left: 1.5rem;
+				}
+			}
+		}
+
+		&.gt-overlay-card {
+			.gt-image-card-columns { 
+				.gt-image-column {
+					flex-grow: 1;
+					padding-right: 0;
+					margin-right: -1.5rem;
+					margin-right: calc( -1 * var(--gt-column-gap) );
+				}
+		
+				.gt-text-column {
+					flex-grow: 1;
+					padding-left: 0;
+					margin-left: -1.5rem;
+					margin-left: calc( -1 * var(--gt-column-gap) );
+				}
+			}
+		}
+
+		&.gt-overlay-card.gt-image-position-right {
+			.gt-image-card-columns { 
+				.gt-image-column {
+					padding-left: 0;
+					margin-right: 0;
+					margin-left: -1.5rem;
+					margin-left: calc( -1 * var(--gt-column-gap) );
+				}
+		
+				.gt-text-column {
+					padding-right: 0;
+					margin-left: 0;
+					margin-right: -1.5rem;
+					margin-right: calc( -1 * var(--gt-column-gap) );
+				}
+			}
+		}
+
+		/* Content Width */
+		&.gt-content-width-30 {
+			.gt-text-column {
+				width: 30%;
+			}
+
+			.gt-image-column {
+				width: 70%;
+			}
+		}
+
+		&.gt-content-width-40 {
+			.gt-text-column {
+				width: 40%;
+			}
+
+			.gt-image-column {
+				width: 60%;
+			}
+		}
+
+		&.gt-content-width-60 {
+			.gt-text-column {
+				width: 60%;
+			}
+
+			.gt-image-column {
+				width: 40%;
+			}
+		}
+
+		&.gt-content-width-70 {
+			.gt-text-column {
+				width: 70%;
+			}
+
+			.gt-image-column {
+				width: 30%;
+			}
+		}
+
+		&.gt-vertical-align-center .gt-text-column,
+		&.gt-vertical-align-center .gt-image-column {
+			justify-content: center;
+		}
+	
+		&.gt-vertical-align-bottom .gt-text-column,
+		&.gt-vertical-align-bottom .gt-image-column {
+			justify-content: flex-end;
+		}
+	}
+}

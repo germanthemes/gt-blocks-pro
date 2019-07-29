@@ -1,0 +1,20 @@
+.wp-block-gt-blocks-pro-multiple-buttons {
+	margin-right: 0;
+
+	.editor-block-list__layout {
+		display: flex;
+		flex-wrap: nowrap;
+
+		> .editor-block-list__block {
+
+			> .editor-block-list__block-edit {
+				margin-top: 0;
+				margin-bottom: 0;
+	
+				.wp-block-gt-blocks-pro-button {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

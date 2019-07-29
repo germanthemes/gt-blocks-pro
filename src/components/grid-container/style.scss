@@ -1,0 +1,65 @@
+@media only screen and (min-width: 480px) {
+	.gt-columns-2,
+	.gt-columns-4,
+	.gt-columns-5,
+	.gt-columns-6 {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -1.5rem;
+		margin-right: calc( -1 * var(--gt-column-gap) );
+		margin-bottom: -1.5rem;
+		margin-bottom: calc( -1 * var(--gt-column-gap) );
+
+		.wp-block-gt-blocks-pro-column {
+			margin-bottom: 0;
+			padding-right: 1.5rem;
+			padding-right: var(--gt-column-gap);
+			padding-bottom: 1.5rem;
+			padding-bottom: var(--gt-column-gap);
+			width: 50%;
+		}
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	.gt-columns-3 {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -1.5rem;
+		margin-right: calc( -1 * var(--gt-column-gap) );
+		margin-bottom: -1.5rem;
+		margin-bottom: calc( -1 * var(--gt-column-gap) );
+
+		.wp-block-gt-blocks-pro-column {
+			margin-bottom: 0;
+			padding-right: 1.5rem;
+			padding-right: var(--gt-column-gap);
+			padding-bottom: 1.5rem;
+			padding-bottom: var(--gt-column-gap);
+			width: 33.3333333333333%;
+		}
+	}
+
+	.gt-columns-5 .wp-block-gt-blocks-pro-column,
+	.gt-columns-6 .wp-block-gt-blocks-pro-column {
+		width: 33.3333333333333%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.gt-columns-4 .wp-block-gt-blocks-pro-column {
+		width: 25%;
+	}
+}
+
+@media only screen and (min-width: 1040px) {
+	.gt-columns-5 .wp-block-gt-blocks-pro-column {
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 1120px) {
+	.gt-columns-6 .wp-block-gt-blocks-pro-column {
+		width: 16.666666666666%;
+	}
+}
